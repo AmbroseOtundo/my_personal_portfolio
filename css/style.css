@@ -57,7 +57,7 @@ section{
     font-size: 1.7rem;
     cursor: pointer;
     background: none;
-    color:var(--black);
+    color:#27ae60;
     box-shadow: var(--box-shadow);
 }
 
@@ -443,7 +443,7 @@ section{
     padding:1rem 1.5rem;
     width:100%;
     background: none;
-    color:var(--black);
+    color:dodgerblue;
     font-size: 1.6rem;
     text-transform: none;
     margin:.7rem 0;
