@@ -95,7 +95,7 @@ section{
     margin:1rem 0;
     border:0.1rem solid saddlebrown;
     border-radius: 50%;
-    height: 24rem;
+    height: 20rem;
     width: 20rem;
     box-shadow: var(--box-shadow);
 }
@@ -465,7 +465,7 @@ section{
 
 /* words playing */
 .typing-demo{
-    width: 106ch;
+    width: 120ch;
     animation: typing 2s steps(102), blink 0.5s
     step-end infinite alternate;
     white-space: nowrap;
