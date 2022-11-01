@@ -45,7 +45,7 @@ body.active{
 }
 
 section{
-    min-height: 100vh;
+    min-height: 50vh;
     padding:2rem;
 }
 
@@ -285,7 +285,7 @@ section{
 }
 
 .services .box-container .box{
-    padding:2rem;
+    padding:1rem;
     border-radius: .5rem;
     box-shadow: var(--box-shadow);
     position: relative;
@@ -464,14 +464,14 @@ section{
 }
 
 /* words playing */
-.typing-demo{
-    width: 120ch;
-    animation: typing 2s steps(102), blink 0.5s
+/* .typing-demo{
+    width: 115ch;
+    animation: typing 2s steps(90), blink 0.5s
     step-end infinite alternate;
     white-space: nowrap;
     overflow: hidden;
     border-right: 3px solid;
-}
+} */
 
 @keyframes typing{
     from{
