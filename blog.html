@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My blog</title>
+</head>
+<body>
+    <h2>Alx Postmortem blog</h2>
+    <h1 id="0x19-postmortem">0x19-postmortem</h1>
+<p align="center">
+<img src="image/down.jpg" width=60% height=60%/>
+</p>
+
+<h2 id="server-downtime">Server Downtime</h2>
+<h3 id="incident-report-for-helm-associates">Incident report for Helm Associates</h3>
+<h4 id="issue-summary">Issue Summary</h4>
+<p>On November 6th, 2022 from 9.00 PM to 00.00 PM EST, the company&#39;s server was down for 3 hours. 100% of users experienced a 500 internal server error caused by a network intrusion which led to the fail  safe activating.</p>
+<h4 id="timeline">Timeline</h4>
+<ul>
+<li>9:00 PM   Intrusion is detected, outage begins</li>
+<li>9:09 PM   Alert is sent out</li>
+<li>9:20 PM   Error logs checked by server admins team</li>
+<li>10:30 PM   Network is configured</li>
+<li>10:45 PM   Firewall is updated</li>
+<li>11:04 PM   Intruder is locked out, turns out it was an automated attack</li>
+<li>11:59 PM   Server 100% restored and back online</li>
+</ul>
+<h4 id="root-cause-and-resolution">Root Cause and Resolution</h4>
+<p>After a network intrusion by a hacker, an alert was sent to the reliability and server admins. They went to check the logs and found an automated attack by a bot. The firewall and network was update. The intruder was fend off. By 00.00 AM the server was up and running.</p>
+<h4 id="corrective-and-preventative-measures">Corrective and Preventative Measures</h4>
+<p>After a discussion it has been decided we can prevent this in the future by:</p>
+<ul>
+<li>Having a second backup server to prevent the fail safe mechanism from bringing the whol system down.</li>
+<li>Have pentesters to regularly test the system against automated tests and attacks.
+This is only a small incident so we are doing great! Thanks for your patience and your continued confidence in us.</li>
+</ul>
+
+</body>
+</html>
